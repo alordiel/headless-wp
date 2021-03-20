@@ -1,4 +1,4 @@
-# Headless Wordpress on JAMstack
+# Headless WordPress on JAMstack
 
 Experimenting with WP API and JAMstack for building headless WP.
 
