@@ -1,18 +1,16 @@
-# Headless Wordpress on the JAMstack
+# Headless Wordpress on JAMstack
 
-> _A quick template to get you started using Headless WordPress_
+Experimenting with WP API and JAMstack for building headless WP.
 
-### Deploy this Template
+### Origin
 
-Click the "Deploy to Netlify" button, and you can configure it to fit your needs.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/netlify-labs/headless-wp-nuxt?utm_source=github&utm_medium=headlesswp-sd&utm_campaign=devex)
-
-![Headless WordPress Template Preview](https://i.ibb.co/4wkXsxj/fullpreview-smashing.png "Template preview")
-
-Article explaining full setup coming on Smashing Magazine soon!
+Template came from here:[headless-wp-nuxt2](https://github.com/sdras/headless-wp-nuxt2)
+Related article: [How To Create A Headless WordPress Site On The JAMstack](https://www.smashingmagazine.com/2020/02/headless-wordpress-site-jamstack/)
+Built on top of [Nuxt.js](https://nuxtjs.org) and [Vue.js](https://vuejs.org/v2).
 
 ## Build Setup
+
+For changing the source site change `const siteURL = "https://arsofia.com"` from `store/index.js` to your site.
 
 ```bash
 # install dependencies
@@ -28,5 +26,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
